@@ -129,7 +129,7 @@ function init() {
   }
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    if (input.value.trim() === dashboardPin) {
+    if (input.value.trim().toUpperCase() === dashboardPin.toUpperCase()) {
       sessionStorage.setItem("bpi-dashboard-unlocked", "yes");
       unlock();
       return;
