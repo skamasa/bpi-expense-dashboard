@@ -4,6 +4,7 @@ const exactCurrency = new Intl.NumberFormat("en-US", { style: "currency", curren
 const propertyColors = { "7 Ash Lane": "#f97316", "38 Lakewood Dr": "#2563eb", "14 Lakewood Dr": "#16a34a", General: "#9333ea" };
 const categoryColors = ["#2563eb", "#f97316", "#16a34a", "#db2777", "#9333ea", "#0891b2", "#ca8a04", "#475569"];
 const dashboardPin = "BPI2025";
+const bgContractingName = "BG Contracting";
 const state = { view: "Overview", year: "All", property: "All", category: "All", payer: "All", query: "" };
 const $ = (id) => document.getElementById(id);
 const sum = (values) => values.reduce((total, value) => total + value, 0);
@@ -40,12 +41,15 @@ function filteredPayments() {
 }
 
 function filteredContributions() {
-  return dashboardData.contributions.filter((row) => state.year === "All" || String(row.year) === state.year);
+  return dashboardData.contributions.filter((row) =>
+    (state.year === "All" || String(row.year) === state.year)
+    && (state.property === "All" || row.property === state.property)
+  );
 }
 
 function totalsFor(rows, payments, contributionsRows) {
-  const berkCharges = sum(rows.filter((row) => row.paidBy === "Berk General C").map((row) => row.amount));
-  const berkPayments = sum(payments.filter((row) => row.paidTo === "Berk General C").map((row) => row.amount));
+  const berkCharges = sum(rows.filter((row) => row.paidBy === bgContractingName).map((row) => row.amount));
+  const berkPayments = sum(payments.filter((row) => row.paidTo === bgContractingName).map((row) => row.amount));
   return {
     expenseTotal: sum(rows.map((row) => row.amount)),
     berkCharges,
@@ -79,7 +83,7 @@ function renderOverview(rows, totals) {
 }
 
 function renderBg(rows, payments, totals) {
-  const bgRows = rows.filter((row) => row.paidBy === "Berk General C");
+  const bgRows = rows.filter((row) => row.paidBy === bgContractingName);
   const byCategory = sortedEntries(groupSum(bgRows, (row) => row.category));
   const byProperty = sortedEntries(groupSum(bgRows, (row) => row.property));
   const categoryRows = byCategory.map(([name, value]) => '<tr><td>' + escapeHtml(name) + '</td><td class="amount-cell">' + exactCurrency.format(value) + '</td><td>' + (totals.berkCharges ? Math.round((value / totals.berkCharges) * 100) : 0) + '%</td></tr>').join("");
@@ -92,8 +96,34 @@ function renderBg(rows, payments, totals) {
     + '</section></section>';
 }
 
+function renderContributions(rows, contributionsRows) {
+  const members = [...new Set(dashboardData.contributions.map((row) => row.member).filter(Boolean))].sort();
+  const contributionTotals = members.map((member) => [
+    member,
+    sum(contributionsRows.filter((row) => row.member === member).map((row) => row.amount)),
+  ]);
+  const memberExpenseRows = rows.filter((row) => members.includes(row.paidBy));
+  const expenseTotals = members.map((member) => [
+    member,
+    sum(memberExpenseRows.filter((row) => row.paidBy === member).map((row) => row.amount)),
+  ]);
+  const contributionTableRows = contributionTotals.map(([member, value]) => '<tr><td>' + escapeHtml(member) + '</td><td class="amount-cell">' + exactCurrency.format(value) + '</td></tr>').join("");
+  const expenseTableRows = expenseTotals.map(([member, value]) => '<tr><td>' + escapeHtml(member) + '</td><td class="amount-cell">' + exactCurrency.format(value) + '</td></tr>').join("");
+  const transactionRows = contributionsRows
+    .slice()
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .map((row) => '<tr><td>' + escapeHtml(row.date) + '</td><td>' + escapeHtml(row.member) + '</td><td>' + escapeHtml(row.property) + '</td><td>' + escapeHtml(row.type) + '</td><td class="amount-cell">' + exactCurrency.format(row.amount) + '</td><td>' + escapeHtml(row.notes) + '</td></tr>')
+    .join("");
+  $("contributions-view").innerHTML =
+    '<section class="dashboard-grid">'
+    + panel("Member Contributions", "Totals from 1_Contributions", '<div class="table-wrap compact-table"><table><thead><tr><th>Member</th><th>Total Contributions</th></tr></thead><tbody>' + contributionTableRows + '<tr class="total-row"><td>Total</td><td class="amount-cell">' + exactCurrency.format(sum(contributionTotals.map(([, value]) => value))) + '</td></tr></tbody></table></div>')
+    + panel("Expenses Paid By Member", "Member-paid expense totals", '<div class="table-wrap compact-table"><table><thead><tr><th>Member</th><th>Total Expenses Paid</th></tr></thead><tbody>' + expenseTableRows + '<tr class="total-row"><td>Total</td><td class="amount-cell">' + exactCurrency.format(sum(expenseTotals.map(([, value]) => value))) + '</td></tr></tbody></table></div>')
+    + '</section>'
+    + panel("Contribution Transactions", "Rows from 1_Contributions", '<div class="table-wrap"><table><thead><tr><th>Date</th><th>Member</th><th>Property</th><th>Type</th><th>Amount</th><th>Notes</th></tr></thead><tbody>' + transactionRows + '</tbody></table></div>', "table-panel contribution-transactions");
+}
+
 function renderTransactions(rows) {
-  $("transactions-view").innerHTML = panel("Transactions", "Searchable expense detail", '<div class="table-wrap"><table><thead><tr><th>Date</th><th>ID</th><th>Property</th><th>Category</th><th>Paid By</th><th>Amount</th><th>Notes</th></tr></thead><tbody>' + rows.map((row) => '<tr><td>' + escapeHtml(row.date) + '</td><td>' + escapeHtml(row.id) + '</td><td>' + escapeHtml(row.property) + '</td><td>' + escapeHtml(row.category) + '</td><td><span class="source-badge ' + (row.paidBy === "Berk General C" ? "berk" : "") + '">' + escapeHtml(row.paidBy) + '</span></td><td class="amount-cell">' + exactCurrency.format(row.amount) + '</td><td>' + escapeHtml(row.notes) + '</td></tr>').join("") + '</tbody></table></div>', "table-panel");
+  $("transactions-view").innerHTML = panel("Transactions", "Searchable expense detail", '<div class="table-wrap"><table><thead><tr><th>Date</th><th>ID</th><th>Property</th><th>Category</th><th>Paid By</th><th>Amount</th><th>Notes</th></tr></thead><tbody>' + rows.map((row) => '<tr><td>' + escapeHtml(row.date) + '</td><td>' + escapeHtml(row.id) + '</td><td>' + escapeHtml(row.property) + '</td><td>' + escapeHtml(row.category) + '</td><td><span class="source-badge ' + (row.paidBy === bgContractingName ? "berk" : "") + '">' + escapeHtml(row.paidBy) + '</span></td><td class="amount-cell">' + exactCurrency.format(row.amount) + '</td><td>' + escapeHtml(row.notes) + '</td></tr>').join("") + '</tbody></table></div>', "table-panel");
 }
 
 function render() {
@@ -106,9 +136,11 @@ function render() {
   $("expense-count").textContent = rows.length + " expenses";
   $("overview-view").hidden = state.view !== "Overview";
   $("bg-view").hidden = state.view !== "BG Contracting";
+  $("contributions-view").hidden = state.view !== "Contributions";
   $("transactions-view").hidden = state.view !== "Transactions";
   renderOverview(rows, totals);
   renderBg(rows, payments, totals);
+  renderContributions(rows, contributions);
   renderTransactions(rows);
 }
 
