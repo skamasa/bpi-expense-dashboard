@@ -8,7 +8,20 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="dashboard-shell">
+    <section class="pin-gate" id="pin-gate" aria-label="Dashboard PIN access">
+      <form class="pin-card" id="pin-form">
+        <div class="brand-mark">BPI</div>
+        <p class="eyebrow">Private Dashboard</p>
+        <h1>BPI LLC Dashboard</h1>
+        <label>
+          Enter PIN
+          <input id="pin-input" autocomplete="off" inputmode="text" type="password" />
+        </label>
+        <button type="submit">Unlock Dashboard</button>
+        <p class="pin-error" id="pin-error" aria-live="polite"></p>
+      </form>
+    </section>
+    <main class="dashboard-shell locked" id="dashboard-shell">
       <aside class="sidebar" aria-label="Dashboard navigation">
         <div class="brand-mark">BPI</div>
         <div>

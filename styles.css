@@ -24,6 +24,60 @@ body {
 }
 button, input, select { font: inherit; }
 button { cursor: pointer; }
+.locked { display: none; }
+.pin-gate {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 24px;
+}
+.pin-gate.hidden { display: none; }
+.pin-card {
+  width: min(100%, 420px);
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.14);
+}
+.pin-card .brand-mark { margin-bottom: 18px; }
+.pin-card h1 { margin-bottom: 22px; color: var(--ink); }
+.pin-card label {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.pin-card input {
+  width: 100%;
+  min-height: 46px;
+  padding: 0 12px;
+  border: 1px solid #cfd8e5;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.pin-card button {
+  width: 100%;
+  min-height: 46px;
+  margin-top: 14px;
+  border: 0;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #2563eb, #16a34a);
+  color: white;
+  font-weight: 900;
+}
+.pin-error {
+  min-height: 20px;
+  margin: 12px 0 0;
+  color: #dc2626;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
 .dashboard-shell { display: grid; grid-template-columns: 260px minmax(0, 1fr); min-height: 100vh; }
 .sidebar {
   position: sticky; top: 0; height: 100vh; padding: 28px 22px;

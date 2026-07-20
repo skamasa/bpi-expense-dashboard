@@ -3,6 +3,7 @@ const currency = new Intl.NumberFormat("en-US", { style: "currency", currency: "
 const exactCurrency = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const propertyColors = { "7 Ash Lane": "#f97316", "38 Lakewood Dr": "#2563eb", "14 Lakewood Dr": "#16a34a", General: "#9333ea" };
 const categoryColors = ["#2563eb", "#f97316", "#16a34a", "#db2777", "#9333ea", "#0891b2", "#ca8a04", "#475569"];
+const dashboardPin = "BPI2025";
 const state = { view: "Overview", year: "All", property: "All", category: "All", payer: "All", query: "" };
 const $ = (id) => document.getElementById(id);
 const sum = (values) => values.reduce((total, value) => total + value, 0);
@@ -112,6 +113,31 @@ function render() {
 }
 
 function init() {
+  const gate = $("pin-gate");
+  const shell = $("dashboard-shell");
+  const form = $("pin-form");
+  const input = $("pin-input");
+  const error = $("pin-error");
+  const unlock = () => {
+    gate.classList.add("hidden");
+    shell.classList.remove("locked");
+  };
+  if (sessionStorage.getItem("bpi-dashboard-unlocked") === "yes") {
+    unlock();
+  } else {
+    input.focus();
+  }
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (input.value.trim() === dashboardPin) {
+      sessionStorage.setItem("bpi-dashboard-unlocked", "yes");
+      unlock();
+      return;
+    }
+    error.textContent = "Incorrect PIN. Please try again.";
+    input.value = "";
+    input.focus();
+  });
   $("last-updated").textContent = dashboardData.meta.lastUpdated;
   $("year-filter").innerHTML = optionHtml(dashboardData.meta.years);
   $("property-filter").innerHTML = optionHtml(dashboardData.meta.properties);
