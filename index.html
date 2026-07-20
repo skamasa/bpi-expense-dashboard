@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BPI LLC Expense Dashboard</title>
+    <meta name="description" content="Read-only dashboard for BPI LLC expenses and vendor payments." />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="dashboard-shell">
+      <aside class="sidebar" aria-label="Dashboard navigation">
+        <div class="brand-mark">BPI</div>
+        <div>
+          <p class="eyebrow">Expense Tracker</p>
+          <h1>BPI LLC Dashboard</h1>
+        </div>
+        <nav>
+          <button class="nav-item active" data-view="Overview">Overview</button>
+          <button class="nav-item" data-view="BG Contracting">BG Contracting</button>
+          <button class="nav-item" data-view="Transactions">Transactions</button>
+        </nav>
+        <div class="sidebar-note">
+          <span>Data through</span>
+          <strong id="last-updated"></strong>
+        </div>
+      </aside>
+
+      <section class="content-area">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Read-only view</p>
+            <h2 id="view-title">Overview</h2>
+          </div>
+          <div class="topbar-summary">
+            <span id="year-label">All years</span>
+            <strong id="expense-count">0 expenses</strong>
+          </div>
+        </header>
+
+        <section class="filters" aria-label="Dashboard filters">
+          <label>Year<select id="year-filter"></select></label>
+          <label>Property<select id="property-filter"></select></label>
+          <label>Category<select id="category-filter"></select></label>
+          <label>Paid by<select id="payer-filter"></select></label>
+          <label class="search-box">Search<input id="search-filter" placeholder="Expense ID, note, vendor" /></label>
+        </section>
+
+        <section id="overview-view"></section>
+        <section id="bg-view" hidden></section>
+        <section id="transactions-view" hidden></section>
+      </section>
+    </main>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
