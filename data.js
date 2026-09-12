@@ -1,6 +1,6 @@
 window.dashboardData = {
   "meta": {
-    "lastUpdated": "2026-07-20",
+    "lastUpdated": "2026-09-12",
     "properties": [
       "14 Lakewood Dr",
       "38 Lakewood Dr",
@@ -3407,6 +3407,162 @@ window.dashboardData = {
       "notes": "Amazon- Heat tape",
       "reviewed": "",
       "paid": ""
+    },
+    {
+      "id": "F182",
+      "date": "2026-07-25",
+      "year": 2026,
+      "month": "2026-07",
+      "property": "7 Ash Lane",
+      "category": "Materials",
+      "paidBy": "Sai",
+      "amount": 23.35,
+      "notes": "Carr Hardware -light bulbs",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F183",
+      "date": "2026-08-03",
+      "year": 2026,
+      "month": "2026-08",
+      "property": "7 Ash Lane",
+      "category": "Utilities",
+      "paidBy": "LLC Bank Account",
+      "amount": 10.34,
+      "notes": "Eversource",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F184",
+      "date": "2026-08-03",
+      "year": 2026,
+      "month": "2026-08",
+      "property": "38 Lakewood Dr",
+      "category": "Utilities",
+      "paidBy": "LLC Bank Account",
+      "amount": 10.97,
+      "notes": "Eversource",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F185",
+      "date": "2026-08-03",
+      "year": 2026,
+      "month": "2026-08",
+      "property": "7 Ash Lane",
+      "category": "LotRent",
+      "paidBy": "LLC Bank Account",
+      "amount": 523.35,
+      "notes": "",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F186",
+      "date": "2026-08-03",
+      "year": 2026,
+      "month": "2026-08",
+      "property": "38 Lakewood Dr",
+      "category": "LotRent",
+      "paidBy": "LLC Bank Account",
+      "amount": 523.35,
+      "notes": "",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F187",
+      "date": "2026-08-03",
+      "year": 2026,
+      "month": "2026-08",
+      "property": "14 Lakewood Dr",
+      "category": "LotRent",
+      "paidBy": "LLC Bank Account",
+      "amount": 523.35,
+      "notes": "",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F188",
+      "date": "2026-08-07",
+      "year": 2026,
+      "month": "2026-08",
+      "property": "14 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "LLC Bank Account",
+      "amount": 127.46,
+      "notes": "HomeDepot-landscaping",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F189",
+      "date": "2026-09-01",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "7 Ash Lane",
+      "category": "Utilities",
+      "paidBy": "LLC Bank Account",
+      "amount": 10,
+      "notes": "Eversource",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F190",
+      "date": "2026-09-01",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Utilities",
+      "paidBy": "LLC Bank Account",
+      "amount": 10.99,
+      "notes": "Eversource",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F191",
+      "date": "2026-09-01",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "7 Ash Lane",
+      "category": "LotRent",
+      "paidBy": "LLC Bank Account",
+      "amount": 523.35,
+      "notes": "",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F192",
+      "date": "2026-09-01",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "LotRent",
+      "paidBy": "LLC Bank Account",
+      "amount": 523.35,
+      "notes": "",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F193",
+      "date": "2026-09-01",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "14 Lakewood Dr",
+      "category": "LotRent",
+      "paidBy": "LLC Bank Account",
+      "amount": 523.35,
+      "notes": "",
+      "reviewed": "",
+      "paid": ""
     }
   ],
   "vendorPayments": [
@@ -3606,6 +3762,24 @@ window.dashboardData = {
       "property": "General",
       "type": "Capital Contribution",
       "amount": 5000,
+      "notes": "Greylock deposit"
+    },
+    {
+      "date": "2026-08-10",
+      "year": 2026,
+      "member": "Sai",
+      "property": "General",
+      "type": "Capital Contribution",
+      "amount": 1000,
+      "notes": "Greylock deposit"
+    },
+    {
+      "date": "2026-09-12",
+      "year": 2026,
+      "member": "Sai",
+      "property": "General",
+      "type": "Capital Contribution",
+      "amount": 1000,
       "notes": "Greylock deposit"
     }
   ]
