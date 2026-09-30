@@ -1,6 +1,6 @@
 window.dashboardData = {
   "meta": {
-    "lastUpdated": "2026-09-12",
+    "lastUpdated": "2026-09-30",
     "properties": [
       "14 Lakewood Dr",
       "38 Lakewood Dr",
@@ -2929,19 +2929,6 @@ window.dashboardData = {
     },
     {
       "id": "F145",
-      "date": "2026-04-29",
-      "year": 2026,
-      "month": "2026-04",
-      "property": "7 Ash Lane",
-      "category": "Materials",
-      "paidBy": "LLC Bank Account",
-      "amount": -1158,
-      "notes": "refund for 1/9/26 homedepot-Pending",
-      "reviewed": "",
-      "paid": ""
-    },
-    {
-      "id": "F146",
       "date": "2026-04-27",
       "year": 2026,
       "month": "2026-04",
@@ -2954,7 +2941,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F147",
+      "id": "F146",
       "date": "2026-04-28",
       "year": 2026,
       "month": "2026-04",
@@ -2963,6 +2950,19 @@ window.dashboardData = {
       "paidBy": "BG Contracting",
       "amount": 41.01,
       "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F147",
+      "date": "2026-04-29",
+      "year": 2026,
+      "month": "2026-04",
+      "property": "7 Ash Lane",
+      "category": "Materials",
+      "paidBy": "LLC Bank Account",
+      "amount": -1158,
+      "notes": "refund for 1/9/26 homedepot-Pending",
       "reviewed": "",
       "paid": ""
     },
@@ -2994,6 +2994,19 @@ window.dashboardData = {
     },
     {
       "id": "F150",
+      "date": "2026-04-29",
+      "year": 2026,
+      "month": "2026-04",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F151",
       "date": "2026-04-30",
       "year": 2026,
       "month": "2026-04",
@@ -3006,7 +3019,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F151",
+      "id": "F152",
       "date": "2026-04-30",
       "year": 2026,
       "month": "2026-04",
@@ -3019,7 +3032,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F152",
+      "id": "F153",
       "date": "2026-04-30",
       "year": 2026,
       "month": "2026-04",
@@ -3032,7 +3045,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F153",
+      "id": "F154",
       "date": "2026-04-30",
       "year": 2026,
       "month": "2026-04",
@@ -3045,7 +3058,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F154",
+      "id": "F155",
       "date": "2026-04-30",
       "year": 2026,
       "month": "2026-04",
@@ -3058,7 +3071,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F155",
+      "id": "F156",
       "date": "2026-04-30",
       "year": 2026,
       "month": "2026-04",
@@ -3071,7 +3084,20 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F156",
+      "id": "F157",
+      "date": "2026-04-30",
+      "year": 2026,
+      "month": "2026-04",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F158",
       "date": "2026-05-01",
       "year": 2026,
       "month": "2026-05",
@@ -3084,7 +3110,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F157",
+      "id": "F159",
       "date": "2026-05-01",
       "year": 2026,
       "month": "2026-05",
@@ -3097,7 +3123,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F158",
+      "id": "F160",
       "date": "2026-05-01",
       "year": 2026,
       "month": "2026-05",
@@ -3110,7 +3136,46 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F159",
+      "id": "F161",
+      "date": "2026-05-01",
+      "year": 2026,
+      "month": "2026-05",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F162",
+      "date": "2026-05-02",
+      "year": 2026,
+      "month": "2026-05",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F163",
+      "date": "2026-05-07",
+      "year": 2026,
+      "month": "2026-05",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F164",
       "date": "2026-05-13",
       "year": 2026,
       "month": "2026-05",
@@ -3123,7 +3188,20 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F160",
+      "id": "F165",
+      "date": "2026-05-13",
+      "year": 2026,
+      "month": "2026-05",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F166",
       "date": "2026-05-16",
       "year": 2026,
       "month": "2026-05",
@@ -3136,7 +3214,46 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F161",
+      "id": "F167",
+      "date": "2026-05-20",
+      "year": 2026,
+      "month": "2026-05",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F168",
+      "date": "2026-05-21",
+      "year": 2026,
+      "month": "2026-05",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F169",
+      "date": "2026-05-22",
+      "year": 2026,
+      "month": "2026-05",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F170",
       "date": "2026-05-28",
       "year": 2026,
       "month": "2026-05",
@@ -3149,11 +3266,24 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F162",
-      "date": "2026-05-29",
+      "id": "F171",
+      "date": "2026-05-28",
       "year": 2026,
       "month": "2026-05",
       "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F172",
+      "date": "2026-05-29",
+      "year": 2026,
+      "month": "2026-05",
+      "property": "14 Lakewood Dr",
       "category": "Utilities",
       "paidBy": "LLC Bank Account",
       "amount": 10.98,
@@ -3162,7 +3292,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F163",
+      "id": "F173",
       "date": "2026-05-29",
       "year": 2026,
       "month": "2026-05",
@@ -3175,7 +3305,20 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F164",
+      "id": "F174",
+      "date": "2026-05-29",
+      "year": 2026,
+      "month": "2026-05",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F175",
       "date": "2026-06-01",
       "year": 2026,
       "month": "2026-06",
@@ -3188,7 +3331,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F165",
+      "id": "F176",
       "date": "2026-06-01",
       "year": 2026,
       "month": "2026-06",
@@ -3201,7 +3344,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F166",
+      "id": "F177",
       "date": "2026-06-01",
       "year": 2026,
       "month": "2026-06",
@@ -3210,11 +3353,24 @@ window.dashboardData = {
       "paidBy": "LLC Bank Account",
       "amount": 523.35,
       "notes": "",
+      "reviewed": "forest",
+      "paid": ""
+    },
+    {
+      "id": "F178",
+      "date": "2026-06-01",
+      "year": 2026,
+      "month": "2026-06",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
       "reviewed": "",
       "paid": ""
     },
     {
-      "id": "F167",
+      "id": "F179",
       "date": "2026-06-03",
       "year": 2026,
       "month": "2026-06",
@@ -3227,7 +3383,46 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F168",
+      "id": "F180",
+      "date": "2026-06-04",
+      "year": 2026,
+      "month": "2026-06",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F181",
+      "date": "2026-06-05",
+      "year": 2026,
+      "month": "2026-06",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F182",
+      "date": "2026-06-06",
+      "year": 2026,
+      "month": "2026-06",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F183",
       "date": "2026-06-08",
       "year": 2026,
       "month": "2026-06",
@@ -3240,7 +3435,20 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F169",
+      "id": "F184",
+      "date": "2026-06-09",
+      "year": 2026,
+      "month": "2026-06",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F185",
       "date": "2026-06-10",
       "year": 2026,
       "month": "2026-06",
@@ -3253,7 +3461,46 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F170",
+      "id": "F186",
+      "date": "2026-06-10",
+      "year": 2026,
+      "month": "2026-06",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F187",
+      "date": "2026-06-11",
+      "year": 2026,
+      "month": "2026-06",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F188",
+      "date": "2026-06-12",
+      "year": 2026,
+      "month": "2026-06",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F189",
       "date": "2026-06-16",
       "year": 2026,
       "month": "2026-06",
@@ -3266,7 +3513,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F171",
+      "id": "F190",
       "date": "2026-06-20",
       "year": 2026,
       "month": "2026-06",
@@ -3279,11 +3526,11 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F172",
+      "id": "F191",
       "date": "2026-06-30",
       "year": 2026,
       "month": "2026-06",
-      "property": "7 Ash Lane",
+      "property": "14 Lakewood Dr",
       "category": "Utilities",
       "paidBy": "LLC Bank Account",
       "amount": 10,
@@ -3292,7 +3539,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F173",
+      "id": "F192",
       "date": "2026-07-01",
       "year": 2026,
       "month": "2026-07",
@@ -3305,7 +3552,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F174",
+      "id": "F193",
       "date": "2026-07-01",
       "year": 2026,
       "month": "2026-07",
@@ -3318,7 +3565,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F175",
+      "id": "F194",
       "date": "2026-07-01",
       "year": 2026,
       "month": "2026-07",
@@ -3331,7 +3578,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F176",
+      "id": "F195",
       "date": "2026-07-01",
       "year": 2026,
       "month": "2026-07",
@@ -3344,7 +3591,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F177",
+      "id": "F196",
       "date": "2026-07-06",
       "year": 2026,
       "month": "2026-07",
@@ -3353,11 +3600,37 @@ window.dashboardData = {
       "paidBy": "Sai",
       "amount": 500,
       "notes": "paid forest for water heater permit",
-      "reviewed": "forest",
+      "reviewed": "",
       "paid": ""
     },
     {
-      "id": "F178",
+      "id": "F197",
+      "date": "2026-07-07",
+      "year": 2026,
+      "month": "2026-07",
+      "property": "7 Ash Lane",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 93.22,
+      "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F198",
+      "date": "2026-07-07",
+      "year": 2026,
+      "month": "2026-07",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F199",
       "date": "2026-07-10",
       "year": 2026,
       "month": "2026-07",
@@ -3370,7 +3643,20 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F179",
+      "id": "F200",
+      "date": "2026-07-11",
+      "year": 2026,
+      "month": "2026-07",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F201",
       "date": "2026-07-12",
       "year": 2026,
       "month": "2026-07",
@@ -3383,7 +3669,46 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F180",
+      "id": "F202",
+      "date": "2026-07-13",
+      "year": 2026,
+      "month": "2026-07",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F203",
+      "date": "2026-07-14",
+      "year": 2026,
+      "month": "2026-07",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F204",
+      "date": "2026-07-15",
+      "year": 2026,
+      "month": "2026-07",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F205",
       "date": "2026-07-16",
       "year": 2026,
       "month": "2026-07",
@@ -3396,7 +3721,20 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F181",
+      "id": "F206",
+      "date": "2026-07-16",
+      "year": 2026,
+      "month": "2026-07",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F207",
       "date": "2026-07-17",
       "year": 2026,
       "month": "2026-07",
@@ -3409,7 +3747,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F182",
+      "id": "F208",
       "date": "2026-07-25",
       "year": 2026,
       "month": "2026-07",
@@ -3422,11 +3760,24 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F183",
+      "id": "F209",
+      "date": "2026-07-25",
+      "year": 2026,
+      "month": "2026-07",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F210",
       "date": "2026-08-03",
       "year": 2026,
       "month": "2026-08",
-      "property": "7 Ash Lane",
+      "property": "14 Lakewood Dr",
       "category": "Utilities",
       "paidBy": "LLC Bank Account",
       "amount": 10.34,
@@ -3435,7 +3786,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F184",
+      "id": "F211",
       "date": "2026-08-03",
       "year": 2026,
       "month": "2026-08",
@@ -3448,7 +3799,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F185",
+      "id": "F212",
       "date": "2026-08-03",
       "year": 2026,
       "month": "2026-08",
@@ -3461,7 +3812,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F186",
+      "id": "F213",
       "date": "2026-08-03",
       "year": 2026,
       "month": "2026-08",
@@ -3474,7 +3825,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F187",
+      "id": "F214",
       "date": "2026-08-03",
       "year": 2026,
       "month": "2026-08",
@@ -3487,11 +3838,11 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F188",
+      "id": "F215",
       "date": "2026-08-07",
       "year": 2026,
       "month": "2026-08",
-      "property": "14 Lakewood Dr",
+      "property": "38 Lakewood Dr",
       "category": "Materials",
       "paidBy": "LLC Bank Account",
       "amount": 127.46,
@@ -3500,11 +3851,63 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F189",
+      "id": "F216",
+      "date": "2026-08-08",
+      "year": 2026,
+      "month": "2026-08",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F217",
+      "date": "2026-08-13",
+      "year": 2026,
+      "month": "2026-08",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 224.87,
+      "notes": "HomeDepot - plumbing",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F218",
+      "date": "2026-08-13",
+      "year": 2026,
+      "month": "2026-08",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F219",
+      "date": "2026-08-19",
+      "year": 2026,
+      "month": "2026-08",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F220",
       "date": "2026-09-01",
       "year": 2026,
       "month": "2026-09",
-      "property": "7 Ash Lane",
+      "property": "14 Lakewood Dr",
       "category": "Utilities",
       "paidBy": "LLC Bank Account",
       "amount": 10,
@@ -3513,7 +3916,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F190",
+      "id": "F221",
       "date": "2026-09-01",
       "year": 2026,
       "month": "2026-09",
@@ -3526,7 +3929,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F191",
+      "id": "F222",
       "date": "2026-09-01",
       "year": 2026,
       "month": "2026-09",
@@ -3539,7 +3942,7 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F192",
+      "id": "F223",
       "date": "2026-09-01",
       "year": 2026,
       "month": "2026-09",
@@ -3552,10 +3955,361 @@ window.dashboardData = {
       "paid": ""
     },
     {
-      "id": "F193",
+      "id": "F224",
       "date": "2026-09-01",
       "year": 2026,
       "month": "2026-09",
+      "property": "14 Lakewood Dr",
+      "category": "LotRent",
+      "paidBy": "LLC Bank Account",
+      "amount": 523.35,
+      "notes": "",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F225",
+      "date": "2026-09-03",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F226",
+      "date": "2026-09-04",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 325.75,
+      "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F227",
+      "date": "2026-09-04",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 115.05,
+      "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F228",
+      "date": "2026-09-04",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F229",
+      "date": "2026-09-05",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 20.91,
+      "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F230",
+      "date": "2026-09-05",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F231",
+      "date": "2026-09-08",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 550.87,
+      "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F232",
+      "date": "2026-09-08",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F233",
+      "date": "2026-09-09",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F234",
+      "date": "2026-09-11",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F235",
+      "date": "2026-09-12",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 320,
+      "notes": "2L*8H=16",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F236",
+      "date": "2026-09-14",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "General",
+      "category": "Permits",
+      "paidBy": "Sai",
+      "amount": 520,
+      "notes": "2026 Annual filing for LLC",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F237",
+      "date": "2026-09-14",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 59.99,
+      "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F238",
+      "date": "2026-09-14",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F239",
+      "date": "2026-09-16",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "7 Ash Lane",
+      "category": "Utilities",
+      "paidBy": "LLC Bank Account",
+      "amount": 73.39,
+      "notes": "Eversource",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F240",
+      "date": "2026-09-16",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "Sai",
+      "amount": 237.99,
+      "notes": "Wayfair-Island",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F241",
+      "date": "2026-09-19",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 789.44,
+      "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F242",
+      "date": "2026-09-19",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 1027.2,
+      "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F243",
+      "date": "2026-09-19",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F244",
+      "date": "2026-09-29",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "7 Ash Lane",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 275.6,
+      "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F245",
+      "date": "2026-09-29",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 160,
+      "notes": "1L*8H=8",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F246",
+      "date": "2026-09-29",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "7 Ash Lane",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 3000,
+      "notes": "Electric- Connor",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F247",
+      "date": "2026-09-29",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "38 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 3000,
+      "notes": "Electric- Connor",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F248",
+      "date": "2026-09-29",
+      "year": 2026,
+      "month": "2026-09",
+      "property": "14 Lakewood Dr",
+      "category": "Contractor Labor",
+      "paidBy": "BG Contracting",
+      "amount": 4000,
+      "notes": "Electric- Connor",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F249",
+      "date": "2026-10-01",
+      "year": 2026,
+      "month": "2026-10",
+      "property": "7 Ash Lane",
+      "category": "LotRent",
+      "paidBy": "LLC Bank Account",
+      "amount": 523.35,
+      "notes": "",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F250",
+      "date": "2026-10-01",
+      "year": 2026,
+      "month": "2026-10",
+      "property": "38 Lakewood Dr",
+      "category": "LotRent",
+      "paidBy": "LLC Bank Account",
+      "amount": 523.35,
+      "notes": "",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F251",
+      "date": "2026-10-01",
+      "year": 2026,
+      "month": "2026-10",
       "property": "14 Lakewood Dr",
       "category": "LotRent",
       "paidBy": "LLC Bank Account",
@@ -3780,6 +4534,15 @@ window.dashboardData = {
       "property": "General",
       "type": "Capital Contribution",
       "amount": 1000,
+      "notes": "Greylock deposit"
+    },
+    {
+      "date": "2026-09-28",
+      "year": 2026,
+      "member": "Sai",
+      "property": "General",
+      "type": "Capital Contribution",
+      "amount": 2000,
       "notes": "Greylock deposit"
     }
   ]
