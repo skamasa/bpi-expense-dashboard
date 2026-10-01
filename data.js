@@ -1,6 +1,6 @@
 window.dashboardData = {
   "meta": {
-    "lastUpdated": "2026-09-30",
+    "lastUpdated": "2026-10-01",
     "properties": [
       "14 Lakewood Dr",
       "38 Lakewood Dr",
@@ -4315,6 +4315,45 @@ window.dashboardData = {
       "paidBy": "LLC Bank Account",
       "amount": 523.35,
       "notes": "",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F252",
+      "date": "2026-10-01",
+      "year": 2026,
+      "month": "2026-10",
+      "property": "38 Lakewood Dr",
+      "category": "Utilities",
+      "paidBy": "LLC Bank Account",
+      "amount": 11.72,
+      "notes": "Eversource",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F253",
+      "date": "2026-10-01",
+      "year": 2026,
+      "month": "2026-10",
+      "property": "14 Lakewood Dr",
+      "category": "Utilities",
+      "paidBy": "LLC Bank Account",
+      "amount": 10,
+      "notes": "Eversource",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F254",
+      "date": "2026-10-01",
+      "year": 2026,
+      "month": "2026-10",
+      "property": "7 Ash Lane",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 72.21,
+      "notes": "HomeDepot",
       "reviewed": "",
       "paid": ""
     }
