@@ -4564,6 +4564,32 @@ window.dashboardData = {
       "notes": "",
       "reviewed": "",
       "paid": ""
+    },
+    {
+      "id": "F271",
+      "date": "2026-11-23",
+      "year": 2026,
+      "month": "2026-11",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "Sai",
+      "amount": 34.97,
+      "notes": "Amazon-mirror",
+      "reviewed": "",
+      "paid": ""
+    },
+    {
+      "id": "F272",
+      "date": "2026-11-23",
+      "year": 2026,
+      "month": "2026-11",
+      "property": "38 Lakewood Dr",
+      "category": "Materials",
+      "paidBy": "BG Contracting",
+      "amount": 47.98,
+      "notes": "HomeDepot",
+      "reviewed": "",
+      "paid": ""
     }
   ],
   "vendorPayments": [
